@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Mingle</string>
+    <string name="generic_error">Sorry Something went wrong</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_crush_name">Crush\'s Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">PhoneNumber</string>
+    <string name="email_error">Please enter a valid email</string>
+    <string name="first_name_error">Your Name cannot be Blank</string>
+    <string name="last_name_error">Last Name cannot be Blank</string>
+    <string name="phone_error">Phone Number cannot be lesss than 10 digits</string>
+    <string name="password_match_error">"Passwords don\'t match"</string>
+    <string name="password">Password</string>
+    <string name="password_error">Your password should have at least six digits and include one digit, one lower case letter and one upper case letter.</string>
+    <string name="password_visible">Password Visible</string>
+    <string name="string_empty">Field Cannot be Blank</string>
+    <string name="recovery_email_sent">Check your inbox for the reset email.</string>
+    <string name="password_invisible">Password Invisible</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="no_account">Don\'t have an account?, Register</string>
+    <string name="have_account">Already have an account?, Login</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="update">Update</string>
+    <string name="logo">Logo</string>
+
+    <string name="next">Continue</string>
+    <string name="identify">Identify Yourself</string>
+    <string name="interest">Who are you \n interested in</string>
+    <string name="interested_in">Interested in</string>
+    <string name="nick_name">Nick name</string>
+    <string name="interested_in_search_for">Looking for 🔍</string>
+    <string name="searching_for">What are you \n searching for</string>
+    <string name="profile_image">Add your \n profile</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">Date of birth</string>
+    <string name="dd">DD</string>
+    <string name="mm">MM</string>
+    <string name="yy">YY</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="everyone">Everyone</string>
+    <string name="relationship">Relationship</string>
+    <string name="hook_up">HookUp</string>
+    <string name="sth_casual">Something Casual</string>
+    <string name="donot_know">Don\'t know yet</string>
+
+    <string name="dd_error">Date is not correct</string>
+    <string name="mm_error">Month is not correct</string>
+    <string name="yy_error">Year is not correct</string>
+    <string name="gender_error">Please select your gender</string>
+    <string name="profile_image_error">You have to add at least the first and second image</string>
+
+    <string name="no_admirers">No admirers yet</string>
+    <string name="no_potential_matches">No more Singles to mingle with</string>
+    <string name="searching_potential_matches">Searching for potential singles to mingle with</string>
+    <string name="no_matches">No Matches yet</string>
+    <string name="no_chats">No chats found start a conversation with your matches</string>
+    <string name="admirers">Admirers</string>
+    <string name="admirers_text">This is a list of all the secret admirers that have liked your profile, like them back and keep the fire burning </string>
+    <string name="view_on_map">See admirers on Map</string>
+
+    <string name="dummy_text">Brandon,21</string>
+    <string name="single">Single</string>
+    <string name="unlock_distance">Unlock See Distance</string>
+    <string name="unlock_admirer">See Admirers</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="calculator">Love Calculator</string>
+    <string name="calculator_desc">Love Calculator allows you to calculate the love percentage between you and your crush and tells you if you are a compatible match</string>
+    <string name="calculate">Calculate</string>
+    <string name="name_error">Either Names cannot be empty</string>
+
+
+    <string name="search">Search</string>
+    <string name="matches">Matches</string>
+    <string name="chats">Chats</string>
+
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="cancel">Cancel</string>
+    <string name="enable">Enable</string>
+    <string name="give_permission">Give Permission</string>
+    <string name="rationale_msg">To use this app\'s functionalities, you need to allow Location permission.</string>
+    <string name="turn_on_location">Turn On Location Service</string>
+    <string name="location_desc">Mingle requires an access to your location for better performance and to match you to any prospective matches around your area.\n\nApp won\'t work without location permission</string>
+
+    <string name="log_out">Log Out</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="account">Account</string>
+    <string name="support">Support</string>
+    <string name="more">More</string>
+    <string name="name">Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="location">Location</string>
+    <string name="help">Help</string>
+    <string name="ask_a_quiz">As a Question</string>
+    <string name="raise_a_concern">Raise a Concern</string>
+    <string name="contact_us">Contact us</string>
+    <string name="request_a_feature">Request a feature</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="term_of_service">Terms of service</string>
+
+    <string name="about_me">About Me</string>
+    <string name="my_basics">Basics</string>
+    <string name="interests">Interests</string>
+
+
+    <string name="type_msg">Type Message</string>
+    <string name="msg_error">Message can\'t be blank</string>
+    <string name="profile_images_desc">Add at least two images (first and second)</string>
+
+    <string name="back">Back</string>
+
+</resources>

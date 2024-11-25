@@ -1,0 +1,92 @@
+dependencies {
+
+    implementation(project(":Common"))
+
+//    implementation ("androidx.core:core-ktx:1.7.0")
+//    implementation ("androidx.appcompat:appcompat:1.6.0")
+//    //implementation ("com.google.android.material:material:1.7.0")
+//    implementation ("androidx.compose.ui:ui:1.3.3")
+//    implementation ("androidx.compose.material:material:1.3.1")
+//    implementation ("androidx.compose.ui:ui-tooling-preview:1.3.3")
+//    implementation ("androidx.compose.material:material-icons-extended:1.3.1")
+
+    implementation(libs.core)
+    implementation(libs.appCompat)
+    implementation(libs.material)
+    implementation(libs.bundles.compose)
+
+
+    implementation (libs.kotlinXCoroutines)
+
+    //Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.bundles.firebase)
+
+    //timber
+    implementation(libs.timber)
+
+    //hiltdagger
+    implementation (libs.hiltNavigation)
+    implementation (libs.googleHiltAndroid)
+    kapt (libs.testHiltCompiler)
+
+    // Preferences DataStore
+    implementation(libs.datastore)
+
+    //retrofit
+    implementation(libs.retrofitGson)
+    implementation(libs.loggingInterceptor)
+    implementation (libs.kotlinxSerialization)
+
+    // KotlinX Serialization
+    implementation (libs.kotlinxJson)
+
+    //coil
+    implementation(libs.coil)
+
+    //purchases
+    implementation(libs.googleBilling)
+
+    //lottie
+    implementation(libs.lottieAnimation)
+
+    //constraint layout
+    implementation (libs.constraintLayout)
+
+    //accompanist permissions
+    //accompanist pager
+    implementation(libs.bundles.accompanist)
+    
+    // location
+    implementation(libs.playSerivesLocation)
+
+    //maps
+    implementation(libs.composeMaps)
+    implementation(libs.playServicesSecrets)
+
+    //in app purchases
+    implementation ("com.github.Felix-Kariuki:InAppPurchasesComposeLibrary:0.1.4")
+
+    //twyper
+    implementation (libs.twyper)
+
+    // shimmer
+    implementation(libs.shimmer)
+
+
+    //leak canary
+    debugImplementation (libs.leakCanary)
+
+    testImplementation (libs.JUnit)
+    androidTestImplementation (libs.testJUnit)
+    androidTestImplementation (libs.esspresso)
+    androidTestImplementation (libs.composeUiJunitTest)
+    androidTestImplementation (libs.hiltTest)
+    androidTestImplementation (libs.testRunner)
+    //kaptAndroidTest (libs.testHiltCompiler)
+    implementation (libs.mockWebServer)
+    debugImplementation(libs.bundles.composeTesting)
+
+    //mockk
+    testImplementation(libs.bundles.mockk)
+}
